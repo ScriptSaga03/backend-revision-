@@ -1,0 +1,20 @@
+2. ES Modules (ESM) Method — The Modern Way
+📌 Definition: Yeh JavaScript (ECMAScript) ka official aur modern standard module system hai.
+ Isme files ko asynchronously (back-and-ground mein parallelly) load kiya jata hai, 
+ jo code ki performance ko behtar banata hai.
+
+Syntax (Export): export (Named export) ya export default (Default export) ka use hota hai.
+
+Syntax (Import): import ... from '...' ka use hota hai.
+
+Usecase: Modern Frontend frameworks (React, Vite, Next.js) aur naye Node.js backends mein ab isi ko standard maana jata hai.
+
+Sabse Badi Pehchan: Iske liye package.json mein "type": "module" likhna zaroori hai. Isme file ka extension (.js) likhna compulsory hota hai.
+
+Quick Cheat-Sheet for Revision
+Feature	CommonJS (CJS)	ES Modules (ESM)
+Kaise Bhejein (Export)	module.exports = { funcName };	export function funcName() {}
+Kaise Bulayein (Import)	const x = require("./file");	import { x } from "./file.js";
+File Extension Needed?	Nahi (Optional)	Haan (Compulsory in Node.js)
+Kaise Load Hota Hai	Synchronous (Line-by-line blocking)	Asynchronous (Non-blocking)
+Standard	Sirf Node.js ka apna purana tool hai	Poori JavaScript ka official standard hai
