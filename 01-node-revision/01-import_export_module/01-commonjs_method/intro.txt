@@ -1,0 +1,12 @@
+1. CommonJS (CJS) Method — The Traditional Way
+📌 Definition: Yeh Node.js ka purana aur default module system hai. 
+Isme files ko synchronously (ek ke baad ek) load kiya jata hai. 
+Jab tak poori file load nahi hoti, tab tak aage ka code nahi chalta.
+
+Syntax (Export): module.exports ya exports ka use hota hai.
+Syntax (Import): require() function ka use hota hai.
+Usecase: Puraane Node.js projects, Express.js ke bade backend applications, 
+aur legacy libraries mein sabse zada yahi dikhega.
+
+
+Sabse Badi Pehchan: Isme aap runtime par condition ke andar bhi import kar sakte ho (jaise if(cond) { require(...) }).
