@@ -1,6 +1,7 @@
 /*
 🌎 Node.js global Object: The Deep Dive
-Jaise browser ke paas HTML elements aur page ko handle karne ke liye window hota hai, waise hi Node.js (jo ki computer ke operating system par run hota hai) ke paas pure environment ko sambhalne ke liye global (ya modern JS mein globalThis) hota hai.
+Jaise browser ke paas HTML elements aur page ko handle karne ke liye window hota hai, 
+waise hi Node.js (jo ki computer ke operating system par run hota hai) ke paas pure environment ko sambhalne ke liye global (ya modern JS mein globalThis) hota hai.
 Hum isko char bade parts mein break karke samajhte hain:
 
 1. The Big Global Properties (Jo hum daily use karte hain)
